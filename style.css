@@ -1,0 +1,88 @@
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+#navbtn {
+    background-color: white;
+    padding-right: 1rem;
+    border: white;
+    margin: 0.5rem;
+}
+
+#logo {
+    width: auto;
+    height: 1.5rem;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+#search, #bag {
+    width: auto;
+    height: 1.5rem;
+    overflow: hidden;
+
+}
+
+#middiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    color: white;
+    background-color: rgb(229, 225, 225);
+    box-sizing: border-box;
+  }
+  
+  #leftdiv,
+  #rightdiv {
+    width: 47%;
+    padding: 1%;
+    margin: 0 10px;
+    color: white;
+    background-color: rgb(228, 228, 228);
+    border: solid black;
+    box-sizing: border-box;
+    margin-top: 00.5rem;
+  }
+  
+  #leftdiv {
+    float: left;
+  }
+  
+  #rightdiv {
+    float: right;
+  }
+
+  #mainimg {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 3.5rem;
+}
+    
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+  #btn-section {
+    color: rgb(52, 122, 244);
+    background-color: transparent;
+    padding-right: 1rem;
+    margin: 0.5rem;
+    border: none;
+  }
